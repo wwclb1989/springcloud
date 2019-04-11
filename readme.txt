@@ -1,3 +1,3 @@
-Spring Cloud΢����ܹ�����ʵս ��е��ҵ������
-΢����ܹ����� �����ʵ������
-zookeeper�ֲ�ʽ����Эͬ������� ��е��ҵ������
+﻿Spring Cloud微服务架构开发实战 机械工业出版社
+微服务架构基础 人民邮电出版社
+zookeeper分布式过程协同技术详解 机械工业出版社
