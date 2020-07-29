@@ -8,7 +8,6 @@ eureka:
     fetch-registry: false   # 表示是否向EurekaServer注册
     register-with-eureka: false # 表示是否从EurekaServer获取注册信息
     service-url:
-      defaultZone:
-        http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://server2:7009/eureka/
   instance:
-    hostname: localhost
+    hostname: server1

@@ -9,4 +9,4 @@ eureka:
     prefer-ip-address: true # 用于设置是否显示主机的IP
   client:
     service-url:
-      defaultZone: http://localhost:7000/eureka/
+      defaultZone: http://server1:7000/eureka/, http://server2:7009/eureka/

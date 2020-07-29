@@ -12,8 +12,11 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>eurka-server</module>
+        <module>eureka-server</module>
         <module>eureka-provider</module>
+        <module>eureka-consumer</module>
+        <module>eureka-server-another</module>
+        <module>eureka-provider-another</module>
     </modules>
 
 </project>

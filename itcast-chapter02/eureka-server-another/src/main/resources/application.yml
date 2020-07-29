@@ -1,0 +1,11 @@
+server:
+  port: 7009    # 服务器端口号7009
+spring:
+  application:
+    name: eureka-server2   # 端口号名称配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://server1:7000/eureka/
+  instance:
+    hostname: server2
