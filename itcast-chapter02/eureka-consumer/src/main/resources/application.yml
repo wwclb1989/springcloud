@@ -1,0 +1,12 @@
+server:
+  port: 7002
+spring:
+  application:
+    name: eureka-consumer
+
+eureka:
+  instance:
+    prefer-ip-address: true # 用于设置是否显示主机的IP
+  client:
+    service-url:
+      defaultZone: http://localhost:7000/eureka/
