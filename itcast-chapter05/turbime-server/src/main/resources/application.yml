@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: turbine-server
+server:
+  port: 8769
+turbine:
+  instanceUrlSuffix: /hystrix.stream
+  aggregator:
+    clusterConfig: default
+  app-config: eureka-hystrix-client, eureka-hystrix-client1
+  cluster-name-expression: new String("default")
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7000/eureka/

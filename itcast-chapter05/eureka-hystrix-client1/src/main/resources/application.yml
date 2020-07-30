@@ -1,8 +1,8 @@
 spring:
   application:
-    name: eureka-hystrix-client
+    name: eureka-hystrix-client1
 server:
-  port: 8764
+  port: 8765
 eureka:
   client:
     service-url:

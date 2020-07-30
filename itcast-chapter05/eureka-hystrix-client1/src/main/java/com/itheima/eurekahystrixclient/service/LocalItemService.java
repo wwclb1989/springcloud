@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.client.RestTemplate;
 
 //@Service
-@FeignClient(value = "hystrix-provider", configuration = HystrixConfig.class, fallback = LocalItemServiceImpl.class)
+@FeignClient(value = "hystrix-provider1", configuration = HystrixConfig.class, fallback = LocalItemServiceImpl.class)
 public interface LocalItemService {
 
 //    @Autowired

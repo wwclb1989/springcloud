@@ -11,3 +11,5 @@ eureka:
       defaultZone: http://server2:7009/eureka/
   instance:
     hostname: server1
+  server:
+    enable-self-preservation: false

@@ -12,6 +12,10 @@
 
     <modules>
         <module>eureka-server</module>
+        <module>hystrix-provider</module>
         <module>eureka-hystrix-client</module>
+        <module>hystrix-provider1</module>
+        <module>eureka-hystrix-client1</module>
+        <module>turbime-server</module>
     </modules>
 </project>

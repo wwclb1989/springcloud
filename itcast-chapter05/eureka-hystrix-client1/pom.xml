@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.itheima</groupId>
-    <artifactId>eureka-hystrix-client</artifactId>
+    <artifactId>eureka-hystrix-client1</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eureka-hystrix-client</name>
+    <name>eureka-hystrix-client1</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
