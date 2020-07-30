@@ -7,6 +7,3 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:7000/eureka
-logging:
-  level:
-    com.itheima.eurkafeignclient.service.FeignService: DEBUG
