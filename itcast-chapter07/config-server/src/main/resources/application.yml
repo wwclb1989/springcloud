@@ -1,0 +1,24 @@
+spring:
+  cloud:
+    config:
+      server:
+#        git:
+#          uri: https://github.com/itcst132465/hello
+#          search-paths: cong
+#          username: itcast132465
+#          password: itcast132465
+#          default-label: master
+        native:
+          search-locations: classpath:/shared   # 读取路径
+  profiles:
+    active: native        # Config Server 从本地读取的配置
+  application:
+    name: config-server
+
+server:
+  port: 8769
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
